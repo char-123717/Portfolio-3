@@ -327,7 +327,7 @@ body.dark-mode .hero {
     display: flex;
     gap: 30px;
     width: max-content;
-    animation: skillsScroll 35s linear infinite;
+    animation: skillsScroll 10s linear infinite;
 }
 
 .skills-track:hover {
