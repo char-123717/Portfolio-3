@@ -507,7 +507,7 @@ body.dark-mode .hero {
     font-size: 0.95rem;
     margin-bottom: 20px;
     line-height: 1.5;
-    min-height: calc(1.5em * 7);
+    min-height: calc(1.5em * 6);
     text-align: justify;
 }
 
