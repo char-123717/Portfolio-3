@@ -20,6 +20,8 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
 
 <body>
@@ -35,9 +37,9 @@
             </div>
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#work-experience" class="nav-link">Experience</a></li>
                 <li><a href="#skills" class="nav-link">Skills</a></li>
                 <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#work-experience" class="nav-link">Experience</a></li>
                 <li><a href="#education" class="nav-link">Education</a></li>
                 <li><a href="#contact" class="nav-link btn-primary">Contact Me</a></li>
             </ul>
@@ -51,9 +53,9 @@
     <section id="about" class="hero">
         <div class="container hero-content">
             <h1 class="animate-fade-up">Hello, I'm <span class="highlight">Charles 李家興</span></h1>
-            <h2 class="animate-fade-up delay-1">Frontend Developer specializing in responsive and user-friendly web applications with modern UI/UX</h2>
+            <h2 class="animate-fade-up delay-1">Aspiring Frontend Developer</h2>
             <p class="animate-fade-up delay-2">
-                Frontend Developer with a strong foundation in Computer Science, specializing in responsive and user-friendly web applications. Experienced in React and JavaScript, with a focus on clean UI design and component-based architecture. Passionate about creating intuitive user experiences and continuously improving frontend skills.
+                Frontend Developer with a strong foundation in Computer Science, <strong>specializing in responsive and user-friendly web applications with modern UI/UX</strong>. Familiar with <strong>React</strong> and <strong>Javascript</strong>, with a focus on clean UI design and component-based architecture. Passionate about creating intuitive user experiences and continuously improving frontend skills.
             </p>
             <div class="hero-buttons animate-fade-up delay-3">
                 <a href="#contact" class="btn btn-primary">Contact Me</a>
@@ -63,67 +65,46 @@
         </div>
     </section>
 
-    <!-- Work Experience Section -->
-    <section id="work-experience" class="section">
-        <div class="container">
-            <h2 class="section-title">Work Experience</h2>
-            <div class="work-content">
-                <div class="work-text">
-                    <h2>BOARDTEK ELECTRONICS CORPORATION 先豐通訊有限公司</h2>
-                    <h3>Taoyuan, Taiwan </h3><br>
-                    <strong>Gold Plating Operator (Part-Time)<br> (June 2024 - September 2024)</strong>
-                    <p>
-                        Performed gold plating on electronic components, ensuring consistent quality while following strict safety and production standards in a high-volume environment.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- Skills Section -->
     <section id="skills" class="section bg-light">
         <div class="container">
             <h2 class="section-title">Skills</h2>
-        </div>
-        <div class="skills-slider">
-            <div class="skills-track">
-                <div class="skill-slide highlight-skill"><i class="fab fa-html5"></i><span>HTML5</span></div>
-                <div class="skill-slide highlight-skill"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
-                <div class="skill-slide highlight-skill"><i class="fab fa-js"></i><span>JavaScript</span></div>
-                <div class="skill-slide highlight-skill"><i class="fab fa-react"></i><span>React</span></div>
-                <div class="skill-slide"><i class="fab fa-git-alt"></i><span>Git</span></div>
-                <div class="skill-slide"><i class="fab fa-github"></i><span>GitHub</span></div>
-                <div class="skill-slide"><i class="fas fa-database"></i><span>MongoDB</span></div>
-                <div class="skill-slide"><i class="fas fa-database"></i><span>Supabase</span></div>
-                
-                <!-- Duplicated for seamless loop -->
-                <div class="skill-slide highlight-skill"><i class="fab fa-html5"></i><span>HTML5</span></div>
-                <div class="skill-slide highlight-skill"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
-                <div class="skill-slide highlight-skill"><i class="fab fa-js"></i><span>JavaScript</span></div>
-                <div class="skill-slide highlight-skill"><i class="fab fa-react"></i><span>React</span></div>
-                <div class="skill-slide"><i class="fab fa-git-alt"></i><span>Git</span></div>
-                <div class="skill-slide"><i class="fab fa-github"></i><span>GitHub</span></div>
-                <div class="skill-slide"><i class="fas fa-database"></i><span>MongoDB</span></div>
-                <div class="skill-slide"><i class="fas fa-database"></i><span>Supabase</span></div>
-                
-            </div>
-        </div>
-        <div class="container">
-            <div class="skills-others">
-                <div class="others-item">
-                    <i class="fas fa-users"></i>
-                    <div>
-                        <strong>Soft Skills</strong>
-                        <p>Fast learner, problem solving, teamwork, and adaptability.</p>
+
+            <div class="skills-grid">
+                <!-- Frontend -->
+                <div class="skill-category skill-frontend">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-badge"><i class="devicon-html5-plain"></i> HTML5</div>
+                        <div class="skill-badge"><i class="devicon-css3-plain"></i> CSS3</div>
+                        <div class="skill-badge"><i class="devicon-javascript-plain"></i> JavaScript</div>
+                        <div class="skill-badge"><i class="devicon-react-plain"></i> React.js</div>
+                        <div class="skill-badge"><i class="fa-solid fa-code"></i>API integration</div>
                     </div>
                 </div>
-                <div class="others-item">
-                    <i class="fas fa-language"></i>
-                    <div>
-                        <strong>Languages</strong>
-                        <p>English, Chinese, and Indonesian.</p>
+
+                <!-- Tools -->
+                <div class="skill-category skill-tools">
+                    <h3><i class="fas fa-tools"></i> Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-badge"><i class="devicon-git-plain"></i> <i class="devicon-github-plain"></i> Git & GitHub</div>
+                        <div class="skill-badge"><i class="devicon-vscode-plain"></i>VS Code</div>
+                        <div class="skill-badge"><i class="devicon-supabase-plain"></i> Supabase</div> 
+                        <div class="skill-badge"><i class="devicon-mongodb-plain"></i> MongoDB</div>
                     </div>
                 </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category skill-soft">
+                    <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                    <div class="skill-items">
+                        <div class="skill-badge"><i class="fas fa-graduation-cap"></i> Fast Learner</div>
+                        <div class="skill-badge"><i class="fas fa-lightbulb"></i> Problem Solving</div>
+                        <div class="skill-badge"><i class="fas fa-hands-helping"></i> Teamwork</div>
+                        <div class="skill-badge"><i class="fas fa-sync-alt"></i> Adaptability</div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -229,6 +210,24 @@
             </div>
         </div>
     </section>
+
+    <!-- Work Experience Section -->
+    <section id="work-experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="work-content">
+                <div class="work-text">
+                    <h2>BOARDTEK ELECTRONICS CORPORATION 先豐通訊有限公司</h2>
+                    <h3>Taoyuan, Taiwan </h3><br>
+                    <strong>Gold Plating Operator (Part-Time)<br> (June 2024 - September 2024)</strong>
+                    <p>
+                        Performed gold plating on electronic components, ensuring consistent quality while following strict safety and production standards in a high-volume environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Education Section -->
     <section id="education" class="section bg-light">
