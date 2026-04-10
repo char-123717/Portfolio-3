@@ -38,6 +38,7 @@
             <ul class="nav-menu">
                 <li><a href="#about" class="nav-link">關於我</a></li>
                 <li><a href="#skills" class="nav-link">技能</a></li>
+                <li><a href="#projects" class="nav-link">專案</a></li>
                 <li><a href="#work-experience" class="nav-link">工作經驗</a></li>
                 <li><a href="#education" class="nav-link">學歷</a></li>
                 <li><a href="#contact" class="nav-link btn-primary">聯絡我</a></li>
@@ -52,11 +53,11 @@
     <section id="about" class="hero">
         <div class="container hero-content">
             <h1 class="animate-fade-up">您好, 我是 <span class="highlight">李家興(Charles)</span></h1>
-            <h2 class="animate-fade-up delay-1">應徵 SMT 工程師職位(無經驗)</h2>
+            <h2 class="animate-fade-up delay-1">應徵半導體製程工程師職位(無經驗)</h2>
             <p class="animate-fade-up delay-2">
-                具備資訊工程背景，培養了良好的邏輯思維與問題分析能力。雖然目前尚無 SMT 相關經驗，但對電子製造領域具有高度興趣，願意從基礎學習設備與製程，並持續提升問題解決能力，期望成為穩定且可靠的工程人員。
+                具備資訊工程背景，擁有良好的邏輯思維與數據分析能力。對半導體製程具高度興趣，已了解<strong>光刻、蝕刻與薄膜沉積等基本製程，並具備製程控制與良率提升的基礎概念</strong>。雖然尚無相關經驗，但學習能力強，願意從基礎製程與設備操作開始，持續精進問題分析與製程優化能力，期望成為穩定且可靠的製程工程師。
             </p>
-            <div class="hero-buttons animate-fade-up delay-3">
+                <div class="hero-buttons animate-fade-up delay-3">
                 <a href="#contact" class="btn btn-primary">Contact Me</a>
                 <a href="Charles_CV.pdf" download class="btn btn-outline">Download CV <i
                         class="fas fa-download"></i></a>
@@ -71,16 +72,73 @@
             <div class="skills-grid">
                 <!-- Soft Skills -->
                 <div class="skill-items">
-                    <div class="skill-badge"><i class="fas fa-brain"></i> 自主學習能力</div>
-                    <div class="skill-badge"><i class="fas fa-lightbulb"></i> 問題解決能力</div>
-                    <div class="skill-badge"><i class="fas fa-project-diagram"></i> 邏輯思維與系統理解能力</div>
-                    <div class="skill-badge"><i class="fas fa-search"></i> 問題分析與排除能力</div>
-                    <div class="skill-badge"><i class="fas fa-users"></i> 團隊合作與溝通能力</div>
-                    <div class="skill-badge"><i class="fas fa-sync-alt"></i> 適應能力</div>
+                    <div class="skill-badge"><i class="fas fa-microchip"></i> 半導體製程基礎（Photolithography / Etching / Deposition）</div>
+                    <div class="skill-badge"><i class="fas fa-chart-line"></i> 製程控制（Process Control）</div>
+                    <div class="skill-badge"><i class="fas fa-chart-bar"></i> 良率分析（Yield Analysis）</div>
+                    <div class="skill-badge"><i class="fas fa-search"></i> 缺陷分析（Defect Analysis）</div>
+                    <div class="skill-badge"><i class="fas fa-database"></i> 數據分析（Python 基礎）</div>
+                    <div class="skill-badge"><i class="fas fa-cogs"></i> 製程優化與問題排除能力</div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">專案</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="yield.png">
+                    </div>
+                    <div class="project-info">
+                        <h3>製程良率分析與異常偵測系統</h3><br>
+                        <p>一個基於機器學習的製程良率分析與異常偵測系統，使用 Python 進行數據分析和模型訓練，能夠預測製程中的潛在問題並提供優化建議，以提升半導體製程的穩定性和良率。</p>  
+                        <div class="project-tech">
+                            <span>Semiconductor Process Knowledge</span>
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Scikit-learn</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/char-123717/Semiconductor-Process-Yield-Analysis-Anomaly-Detection" target="_blank" class="link-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <img src="SPC.png">
+                    </div>
+                    <div class="project-info">
+                        <h3>SPC 控制圖</h3><br>
+                        <p>一個基於統計製程控制（SPC）的控制圖系統，使用 Python 和 Matplotlib 進行數據分析和可視化，幫助半導體製程工程師監控製程穩定性，識別異常趨勢並提供改進建議，以提升製程品質和效率。</p>
+                        <div class="project-tech">
+                            <span>Semiconductor Process Knowledge</span>
+                            <span>SPC</span>
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>Scikit-learn</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/char-123717/SPC" target="_blank" class="link-btn"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Work Experience Section -->
     <section id="work-experience" class="work-experience">
